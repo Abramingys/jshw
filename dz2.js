@@ -26,6 +26,8 @@ function sum () {
 }
 sum()
 
+// Четвертое задание
+
 let a = 2;
 let b = 8;
 let result = 1;
