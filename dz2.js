@@ -38,3 +38,6 @@ while(i < b){
     i++;
 }
 console.log(result);
+
+
+
