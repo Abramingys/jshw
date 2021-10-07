@@ -34,12 +34,7 @@ let result = 1;
 let i = 0;
 
 while(i < b){
-    if (result == 256){
-        console.log(result);
-    }
-    else (){
     result = result * a;
     i++;
-    }
-    
 }
+console.log(result);
