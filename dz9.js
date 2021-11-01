@@ -1,5 +1,6 @@
 // Напишите функцию printMessage(n), которая выводит сообщения на экран каждые n секунд.
 function printMessagee(n) {
+
     setInterval(() => {
         console.log("hello1");
         alert('hello');
@@ -11,6 +12,7 @@ printMessagee(5000);
 // Напишите функцию, которая выводит через 5 секунд на экран сообщение “прошло 5 секунд”
 
 function time(n) {
+
     setTimeout(() => {
         alert('Прошло 5 секунд');
     }, n);
@@ -23,7 +25,7 @@ function printNumbers(from, to) {
 
     let timerId = setInterval(() => {
         alert(from);
-        if (from == to) {
+        if (from === to) {
             clearInterval(timerId);
         }
         from++
